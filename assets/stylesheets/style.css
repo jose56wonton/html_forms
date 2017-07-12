@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.nav{
+  margin-top: 80px;
+}
+.nav-right{
+  float: right;
+}
+.nav-center{
+  text-align: center;
+}
+.nav li{
+  display: inline-block;
+  margin: 15px 0px;
+  vertical-align: top;
+  padding: 0 10px;
+
+}
+nav li.nav-li{
+  border-right:1px solid #DDDFE1;
+}
+
+
+.nav li:last-child{
+  margin-right: 0;
+  border-right:none;
+}
+a{
+  text-decoration: none;
+  color:#878B8E;
+  font-size: 14px;
+  font-family: 'Source Sans Pro';
+}
+
+
+.form-section{
+  width: 440px;
+  height:100%;
+  float: left;
+  padding:40px;
+}
+.form-section label{
+  color: #4B4D4F;
+  cursor: pointer;
+  font-weight: 400;
+
+}
+.account-information {
+  margin-top: 27px;
+}
+.account-information input{
+  border:1px solid #DDDFE1;
+  border-radius: 2px;
+  display: block;
+
+  margin: 15px 0 15px 0;
+  padding: 5px 8px;
+  width: 250px;
+  height:30px;
+}
+.random-comments{
+  width: 199px;
+  padding: 40px;
+  padding-top: 0px;
+  margin-top: 40px;
+  height:70%;
+  float: right;
+  border-left: 1px solid #DDDFE1;
+
+}
+.random-comments ul li{
+  margin-top: 10px;
+}
+.account-action input{
+  border:1px solid #DDDFE1;
+  border-radius: 2px;
+
+
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.main{
+  height: 800px;
+  width: 800px;
+}
+.shadow {
+-moz-box-shadow: 0 0 3px 1px #999;
+-webkit-box-shadow: 0 0 3px 1px #999;
+}
+
+h1{
+  color:black;
+  font-size: 32px;
+  font-family: 'Source Sans Pro';
+}
+h2{
+  color:black;
+  font-size: 20px;
+  font-family: 'Source Sans Pro';
+}
+p{
+  color:#878B8E;
+  font-size: 14px;
+  font-family: 'Source Sans Pro';
+}
+.submit-button{
+  background-image: url(assets\images\sign-up.png); /* 16px x 16px */
+  background-color: transparent; /* make the button transparent */
+  background-repeat: no-repeat;  /* make the background image appear only once */
+  background-position: 0px 0px;  /* equivalent to 'top left' */
+  border: none;           /* assuming we don't want any borders */
+  cursor: pointer;        /* make the cursor like hovering over an <a> element */
+  height: 31px;           /* make this the size of your image */
+  padding-left: 16px;     /* make text start to the right of the image */
+  vertical-align: middle; /* align the text vertically centered */
+}
